@@ -1,0 +1,28 @@
+{
+  "name": "testenv",
+  "version": "0.1.0",
+  "author": "Sergey Shishkalov <sergeyshishkalov@gmail.com>",
+  "description": "Simple evironment for running javascript specs",
+
+  "devDependencies": {
+    "coffee-script": "",
+    "karma": "",
+    "mocha": "",
+    "karma-mocha": "",
+    "chai": "",
+    "karma-chai": "",
+    "sinon": "",
+    "sinon-chai": "",
+    "karma-sinon-chai": ""
+  },
+
+  "license": "MIT",
+
+  "engine": {
+    "node": ">= 0.10"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  }
+}
