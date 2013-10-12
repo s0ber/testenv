@@ -16,3 +16,5 @@ node_modules
 
 testenv.sublime-project
 testenv.sublime-workspace
+
+.DS_Store
